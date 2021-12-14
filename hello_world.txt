@@ -1,2 +1,3 @@
 LEARNING about git on The Odin Project
 Testing using VsCode for Git Commit 
+Testing using VsCode to go directly to git
