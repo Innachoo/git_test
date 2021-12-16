@@ -1,13 +1,15 @@
-!Doctype HTML
+<!DOCTYPE html>
+<html lang="en"
 <html>
     <head>
         <title>My first scratch html file</title>
-        charset = <UTF-8></UTF-8>
+        <meta charset="utf-8">
     </head>
     <body>
-        <h1>Heading 1</h1>
-        <p>Testing a paragraph here with some <strong>formatting</strong> and <em>emphasis</em></p>
-        <p></p><p>Testing out an unsigned list below:</p>
+        <h1>The Home Page</h1>
+        <a href="blog-page.html"><img src="./img/dog.png" alt="Link to the blog page" height="125"></a>
+        <p>Testing a paragraph here with some <strong>strong formatting</strong> and <em>emphasis</em></p>
+        <p></p><h4>Testing out an unsigned list below:</h4>
         <ul>
             <li>Chicken</li>
             <li>Beef</li>
@@ -16,12 +18,20 @@
             <li>Batteries</li>
         </ul>
         <p>
-            <p>Testing out a nested paragraph and signed list with a nested paragraph next:</p>
+            <h4>Testing out a nested paragraph and signed list with a nested paragraph next:</h4>
             <ol>
                 <li>Ready</li>
                 <li>Steady</li>
                 <li><p>1, 2, 3, Go</p></li>
             </ol>
+        <p></p>
+        <p>Testing out different types of breaks in a paragraph. Like this simple line break here.<br> 
+            Now trying out a non-hyphenated word break for a long word like pneumonoultra<wbr>microscopic<wbr>silicovolcano<wbr>coniosises.<br>
+            Also trying out hyphenated word breaks with the same word pneumono&shy;ultramicro&shy;scopicsilico&shy;volcano&shy;coniosises. </p>
         </p>
+        <p></p>
+        <p>Here's a link to <a href="blog-page.html">the blog page</a></p>
+        <p><a href="./pages/page.html">Another page</a></p>
+        <!--Finally, here's an html comment-->
     </body>
 </html>
